@@ -4,8 +4,8 @@ var nombre = 10;
 
 let apellido = 'Exequiel';
 
-//let apellido = 'daniel' //!no se puede reasignar el valor a una variable let
+//let apellido = 'daniel' //no se puede reasignar el valor a una variable let
 
 const exequiel = 10;
 
-//const exequiel = 10;  //! no se puede volver a declarar la misma constante
+//const exequiel = 10;  // no se puede volver a declarar la misma constante
