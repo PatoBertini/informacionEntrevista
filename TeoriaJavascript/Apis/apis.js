@@ -11,6 +11,6 @@ fetch("url")
   async function cargarDatos() {
 
     //Se ocupa la palabra await para simular sincronia, await espera a que la operacion termine para pasar a la siguiente actividad
-    const pedido = await fetch("../json/ferreteria.json"); //guardamos los datos de los productos de ferreteria
+    const pedido = await fetch("https://jsonplaceholder.typicode.com/posts"); //guardamos los datos
     const datosJson = await pedido.json(); //datosJson para transformar a json
   }  
