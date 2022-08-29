@@ -1,0 +1,3 @@
+ 1) Clases: Son modelos/templates para crear objetos. Encapsulan parametros y luego trabajamos sobre esa data. Son funciones especiales que a diferencia de las funciones, estas deben estar declaradas antes de ser llamadas. En cambio las funciones pueden estar llamadas sin ser declaradas.
+ 1.a) Primero instanciamos una Clase con su nombre, con el constructor le pasamos los parametros. (podemos agregar metodos de una clase que son opcional) Los métodos de una clase son funciones que sirven para manipular las variables de la clase.
+ 2.a) Luego declaramos variables de personas con los datos de las clases.

@@ -1,0 +1,36 @@
+1) ARRAYS:
+A) Definicion;
+Es un tipo de dato que sirve para almacenar valores en forma de lista. Puede ser una coleccion de numeros, strings, booleanos, objetos o hasta una lista de listas.
+B) Indices y recorridos;
+Tienen un indice que va desde el 0 hasta el ultimo elemento.
+
+C) Operaciones Habituales
+
+
+
+D) Array Metodos Instanciados
+d.1) at()-> recibe un valor y retorna el elemento en ese indice.
+d.2) concat()-> concatena dos arrays
+d.3) filter()-> crea un nuevo array con los elementos de la funcion ejecutada.
+d.4) find()-> retorna el primer elemento del array que satisface la funcion indicada.
+d.5) forEach()-> ejecuta la funcion para cada elemento del array.
+d.6) includes()-> determina si un array tiene un valor entre sus entradas y devuelve true o false
+d.7) map()-> crea un nuevo array con los resultados de la funcion llamada
+d.8) reduce(acc, curr)-> Ejecuta una función reductora sobre cada elemento de un array, devolviendo como resultado un único valor.
+El valor devuelto de la función reductora se asigna al acumulador, cuyo valor se recuerda en cada iteración de la matriz y, en última instancia, se convierte en el valor final, único y resultante.
+d.9) splice()-> Eliminamos elementos del array pasándole dos parámetros: la posición del primer elemento que se elimina y el número de elementos que queremos eliminar o agregamos un elemento al array pasandole un 3er parametro
+d.10) slice()-> pasa como parametro dos indices de un array y te devuelve un nuevo array
+d.11) join()-> crea y retorna una nueva string concatenando todos los elementos de un array separados por commas
+d.12) indexOf()-> nos permite obtener el indice de un elemento en un array.
+d.13) from()->
+
+2) DATA TYPES
+primitives: contiene un data type (number, string, boolean)
+A) Definicion; es el valor del elemento de una variable. Existen 8 tipos
+a.1) numbers
+a.2) string
+a.3) boolean
+a.4) Objets:
+typeof -> devuelve el estado del elemento
+
+

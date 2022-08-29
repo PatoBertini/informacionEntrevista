@@ -1,0 +1,5 @@
+
+Cual es la diferencia entre for...in, for...of y forEach
+1) for...in: es usada para iterar por todas las propiedades enumerables de un objeto. Puede ser usado en arrays, strings, objets pero no con Map
+2) for...of: ejecuta un bloque de código para cada elemento de un objeto iterable, como lo son: String, Array, objetos. Map esta ok.
+3) forEach: es un metodo de array, que permite iterar sobre el elemnto de un array. solo itera sobre arrays.
