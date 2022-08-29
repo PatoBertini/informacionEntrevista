@@ -9,7 +9,15 @@ de una forma totalmente diferente.
 Javascript nos ofrece este método para hacer peticiones HTTP a algún servicio externo. Convenientemente el método fetch
 trabaja con promesas. Este método recibe los siguientes parámetros:
 
-El primer parámetro es la URL a la cual hacer la petición y el segundo parámetro es opcional
+El primer parámetro es la URL a la cual hacer la petición y el segundo parámetro es opcional.
 fetch(url,config)
 
-Por defecto este método hace peticiones GET
+Por defecto este método hace peticiones GET.
+
+¿Que es async await?
+
+La sentencia async await nos permite establecer un punto de espera en el código. Aplicado como prefijo a una promesa (return fetch)
+se bloque la ejecución de la siguiente instrucción hasta que la promesa lo resuelva.
+
+Los desarolladores de Javascript nos ofrecen esta herramienta que nos facilita trabajar con promesas como si escribieramos
+código sincrónico.

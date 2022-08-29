@@ -5,3 +5,12 @@ fetch("url")
   .catch((error) => {
     console.log("salio todo mal", error);
   });
+
+
+  //Fetch con async await
+  async function cargarDatos() {
+
+    //Se ocupa la palabra await para simular sincronia, await espera a que la operacion termine para pasar a la siguiente actividad
+    const pedido = await fetch("../json/ferreteria.json"); //guardamos los datos de los productos de ferreteria
+    const datosJson = await pedido.json(); //datosJson para transformar a json
+  }  
