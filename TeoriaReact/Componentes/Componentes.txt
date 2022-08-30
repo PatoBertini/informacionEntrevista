@@ -1,0 +1,2 @@
+Es una pieza de codigo encapsulada y reutilizable. 
+tiene un estado inicial que es como se encuentra la informacion del componente la primera vez cuando se abre, pero este puede cambiar cuando se ejecuten ciertos eventos
