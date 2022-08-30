@@ -1,0 +1,9 @@
+Las variables son cajas que van a contener algún tipo de información
+
+Var: Pueden ser modificadas y re-declaradas dentro de su ámbito (ES5)
+
+let: Puede recibir multiples asignaciones en el transcurso de la aplicación, es decir que puede cambiar de valor 
+varias veces, pueden ser modificadas pero no re-declaradas. (ES6)
+
+const: recibe una única asignación al momento de su declaración, impidiendo que su valor se modifique luego, no pueden
+ser modificadas ni re-declaradas

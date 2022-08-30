@@ -1,1 +1,23 @@
-fetch('url')
+¿Que es una API?
+
+Como lo dicen sus siglas "Applicaction Programming Interfaces" es una aplicación web construida en base a la arquitectura
+API REST, a la cual podemos solicitar y enviar información desde el cliente. Cada API tiene su conjunto de reglas y trabajan
+de una forma totalmente diferente.
+
+¿Que es fetch?
+
+Javascript nos ofrece este método para hacer peticiones HTTP a algún servicio externo. Convenientemente el método fetch
+trabaja con promesas. Este método recibe los siguientes parámetros:
+
+El primer parámetro es la URL a la cual hacer la petición y el segundo parámetro es opcional.
+fetch(url,config)
+
+Por defecto este método hace peticiones GET.
+
+¿Que es async await?
+
+La sentencia async await nos permite establecer un punto de espera en el código. Aplicado como prefijo a una promesa (return fetch)
+se bloque la ejecución de la siguiente instrucción hasta que la promesa lo resuelva.
+
+Los desarolladores de Javascript nos ofrecen esta herramienta que nos facilita trabajar con promesas como si escribieramos
+código sincrónico.

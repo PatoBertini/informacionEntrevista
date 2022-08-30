@@ -1,5 +1,5 @@
 // 
-cons getData = new Promise((res, rej) =>{
+const getData = new Promise((res, rej) =>{
     res()
 })
 getData.then(()=>{
