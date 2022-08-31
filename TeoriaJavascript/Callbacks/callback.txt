@@ -1,0 +1,3 @@
+Los callbacks son funciones que reciben como parametro otras funciones
+la intencion es que la funcion que hace de receptora ejecute la funcion que se le esta pasando por parametro.
+el callback siempre es el ultimo parametro y suele ser una funcion que recibe dos parametros

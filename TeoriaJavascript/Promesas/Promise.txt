@@ -1,0 +1,5 @@
+es un objeto que encapsula una operacion y que permite definir acciones a tomar luego de finalizada dicha operacion
+tiene 3 estados:
+- pending; es el estado inicial y una ves que se resuelve pasa a:
+- fulfilled; salio bien y su resultado sera manejado por el callback asignado mediante el metodo .then()
+- rejected; la operacion fallo y su error sera manejado por .catch
